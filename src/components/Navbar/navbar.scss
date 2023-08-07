@@ -1,0 +1,13 @@
+nav {
+  padding-top: 30px !important;
+  .navbar-nav {
+    a {
+      font-size: 18px;
+      margin: 0 15px;
+      color: $white;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
