@@ -1,3 +1,5 @@
+
+
 export const MenuData = [
     {
         title: "Home",
@@ -39,4 +41,27 @@ export const FooterBeforeLists = [
         link: "/"
     },
 ]
+export const FooterAfterLists = [
+    {
+        title: "Project",
+        link: "/"
+    },
+    {
+        title: "Challenges",
+        link: "/"
+    },
+    {
+        title: "Pro Membership",
+        link: "/"
+    },
+    {
+        title: "For Business",
+        link: "/"
+    },
+    {
+        title: "Support",
+        link: "/"
+    },
+]
+
 

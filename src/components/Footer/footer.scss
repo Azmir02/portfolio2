@@ -31,4 +31,67 @@
       }
     }
   }
+  .footer-newsletter {
+    h4 {
+      color: $white;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .newsletter-body {
+      margin-top: 52px;
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        color: $white;
+        line-height: 30px;
+        padding-right: 20px;
+      }
+      .newsletter-form {
+        background-color: $white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+        input {
+          background-color: transparent;
+          border: none;
+          outline: none;
+          padding-left: 15px;
+        }
+        button {
+          background-color: $main;
+          border: none;
+          outline: none;
+          padding: 20px 25px;
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+          svg {
+            fill: $white;
+          }
+        }
+      }
+    }
+    .footer-social {
+      margin-top: 25px;
+      display: flex;
+      gap: 15px;
+      .images {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          background-color: $main;
+          svg {
+            path {
+              fill: $white;
+            }
+          }
+        }
+      }
+    }
+  }
 }
