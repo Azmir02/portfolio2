@@ -1,3 +1,4 @@
+import Device from "@/assets/svg/Device"
 
 
 export const MenuData = [
@@ -64,4 +65,31 @@ export const FooterAfterLists = [
     },
 ]
 
+
+export const ClientData = [
+    {
+        icons: <Device />,
+        title: 'Digital Marketting',
+        description: 'Web applications provide a flexible solution thank to their plat independent',
+        readMore: "Start Discovery"
+    },
+    {
+        icons: <Device />,
+        title: 'Digital Marketting',
+        description: 'Web applications provide a flexible solution thank to their plat independent',
+        readMore: "Start Discovery"
+    },
+    {
+        icons: <Device />,
+        title: 'Digital Marketting',
+        description: 'Web applications provide a flexible solution thank to their plat independent',
+        readMore: "Start Discovery"
+    },
+    {
+        icons: <Device />,
+        title: 'Digital Marketting',
+        description: 'Web applications provide a flexible solution thank to their plat independent',
+        readMore: "Start Discovery"
+    },
+]
 
